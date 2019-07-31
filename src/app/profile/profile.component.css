@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    height: 78vh;
+    background: linear-gradient(rgba(31, 32, 34, 0.703),rgba(54, 50, 63, 0.781)),url(../../assets/moun1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    padding-top: 10%;
+}
+.container2{
+    width: 25%;
+    height: 89%;
+    margin: auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+   
+}
+.headr{
+    width: 100%;
+    height: 55%;
+    border: solid;
+    background: linear-gradient(rgba(138, 132, 132, 0.903),rgba(54, 50, 63, 0.981)),url(../../assets/moun1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+  
+}
+.bdy{
+    width: 100%;
+    height: 15%;
+    border: solid;
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 28%;
+    border: solid
+}
+
+.propic{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 16%;
+    height: 15%;
+    margin: auto;
+    border: solid;
+    margin-top: 20px;
+    padding: 20px
+}
+.nam{
+    width: 80%;
+    height: 15%;
+    border: solid;
+    margin: auto;
+}
+.cons{
+    width: 35%;
+    height: 100%;
+    border: solid;
+    
+    
+}
+.back{
+    width: 20%;
+    height: 15%;
+    border:solid
+}

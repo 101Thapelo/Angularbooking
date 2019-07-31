@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import{RouterModule, Routes} from '@angular/router';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { PreviewsComponent } from './previews/previews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignInComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent,
+    PreviewsComponent
   ],
   imports: [
     BrowserModule,
@@ -19,6 +23,8 @@ import { HomeComponent } from './home/home.component';
       {path:'',component:SignInComponent},
       {path:'sign',component:SignInComponent},
       {path:'home',component:HomeComponent},
+      {path:'profile',component:ProfileComponent},
+      {path:'previews',component:PreviewsComponent},
   ])],
   providers: [],
   bootstrap: [AppComponent]
